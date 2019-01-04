@@ -1,0 +1,295 @@
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+.wb-autocomplete-suggestions {
+    text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    position: absolute; display: none; z-index: 2147483647; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+}
+.wb-autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+.wb-autocomplete-suggestion b { font-weight: bold; }
+.wb-autocomplete-suggestion.selected { background: #f0f0f0; }
+.viddosse__top{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}	
+.about-area .about-content h2 {
+	margin-bottom: 20px;
+}
+#completeform1 fieldset label {
+    float: left;
+    display: block;
+    width: 30%;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+#completeform1 fieldset .form-input {
+    float: left;
+    display: block;
+    width: 70%;
+}
+#completeform1 fieldset label.mandatory::after {
+    color: #fb0d1b;
+    content: '*';
+    position: absolute;
+    margin-left: 3px;
+    margin-top: -2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#completeform1 .btn {
+    font-family: Poppins,sans-serif;
+    font-size: 12px;
+    line-height: 34px;
+    font-weight: 600;
+    padding: 0 34px;
+    text-align: center;
+    color: #fff;
+    min-width: 160px;
+    border: none;
+    box-sizing: border-box;
+    transition: all .5s;
+    position: relative;
+    z-index: 2;
+    -ms-border-radius: 50px !important;
+    border-radius: 50px !important;
+    background-image: -webkit-linear-gradient(left,#2b56f5 0,#46bdf4 100%);
+    background-image: linear-gradient(to right,#2b56f5 0,#46bdf4 100%);
+}
+#completeform1 fieldset input {
+    display: block !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    padding: 8px 15px !important;
+    height: auto !important;
+    line-height: normal !important;
+    border: 1px solid #CCC !important;
+    border-radius: 50px !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    color: #000 !important;
+}
+#completeform1 button.btn.btn-alt {
+    background-image: -webkit-linear-gradient(left,#7a0fff 0,#46bdf4 100%);
+    background-image: linear-gradient(to right,#7a0fff 0,#46bdf4 100%);
+	}
+	
+#completeform1 button.btn:hover::before {
+    opacity: 1;
+}
+#completeform1 button.btn.btn-alt::before {
+    background-image: -webkit-linear-gradient(left,#46bdf4 0,#7a0fff 100%);
+    background-image: linear-gradient(to right,#46bdf4 0,#7a0fff 100%);
+}
+#completeform1 button.btn::before {
+    -ms-border-radius: 50px !important;
+    border-radius: 50px !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0;
+    background-image: -webkit-linear-gradient(left,#46bdf4 0,#2b56f5 100%);
+    background-image: linear-gradient(to right,#46bdf4 0,#2b56f5 100%);
+}
+#completeform1 button.btn.btn-outline::after, .btn::before {
+    position: absolute;
+    transition: all .5s ease;
+    content: "";
+}
+#completeform1 button.btn:focus, .btn:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 50px !important;
+}
+#completeform1 button.btn {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 6px 20px;
+    border-radius: 2px;
+}
+
+
+			.mediabrand img {
+			width: 100%;
+			height: 64px;
+			}
+			.foo-link ul {
+			margin-bottom: 0;
+			}
+
+			#login-pop {
+			z-index: 999999;
+			}
+#completeform1 span.allerror__blockke {
+    width: 100%;
+    position: absolute;
+    color: #ff0000;
+	font-size: 11px;
+}	
+#completeform1 .masseg__for_subs {color: #fff;font-size: 26px;}
+#hide___all1 {
+	display: none;
+	height: 100%;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 26px;
+	position: relative;
+}
+#hide___all1 button.close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 16px;
+}
+#hide___all1 i {
+    position: absolute;
+    left: 0;
+    font-size: 70px;
+    top: 50%;
+    margin-top: -35px;
+    color: green;
+}
+@media (max-width: 320px) {
+#hide___all1 {
+padding: 70px 20px 20px 20px;
+}
+#hide___all1 i {
+    position: absolute;
+    left: 50%;
+    font-size: 70px;
+    top: 0;
+    margin-top: 0;
+    color: green;
+    margin-left: -35px;
+}
+}
+.closserespan {
+	position: relative;
+	padding: 15px 25px;
+	float: left;
+}
+#clossere1.sell__btn {
+	width: auto;
+    height: auto;
+    line-height: 1;
+    margin: 0;
+    padding: 5px 7px;
+    border-radius: 50%;
+	cursor: pointer;
+}
+#clossere1 {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 16px;
+}
+#errorq1 {
+	color:#000;
+	font-size: 20px;
+	text-transform:uppercase;
+	background: #fff;
+	display: none;
+	position: fixed;
+	height: auto;
+	width: 300px;
+	z-index: 10000;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -150px;
+	text-align: center;
+	border-radius: 5px;
+	font-family: "OEB", sans-serif;
+}
+	  
+.blockke__name {
+	width: 50%;
+	float: left;
+	position: relative;
+}	  
+.blockke__last_name	  {
+	width: 50%;
+	float: left;
+	position: relative;
+}	   
+.blockke__mail {
+	width: 50%;
+	float: left;
+	position: relative;
+}	  
+.blockke__country {
+	width: 50%;
+	float: left;
+	position: relative;
+}	  
+.blockke__city {
+	width: 50%;
+	float: left;
+	position: relative;
+}	  
+.blockke__company {
+	width: 50%;
+	float: left;
+	position: relative;
+}	  
+.blockke__name,.blockke__last_name,.blockke__mail,.blockke__country,.blockke__city,.blockke__company {
+	display: flex;
+	display: -webkit-flex;
+    display: -ms-flex;
+    justify-content: center;
+}
+.error-blockke__name {
+
+}	  
+.error-blockke__last_name {
+
+}	  
+.error-blockke__mail {
+
+}	  
+.error-blockke__country {
+
+}	  
+.error-blockke__city {
+
+}	  
+.error-blockke__company {
+
+}	 
+.allerror__blockke {
+position: absolute;
+}
+.whitelist__input {
+	margin-top: 20px;
+} 
+#email-result.error.m-b-0 {
+	display: none;
+}
+header.fix_top {
+ position: fixed;
+ display: none;
+ top:0;
+ padding: 20px 0;
+ background: rgba(0,0,0,0.7);
+ z-index: 999999;
+}
+
